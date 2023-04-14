@@ -1,0 +1,42 @@
+.lessonExplain_wrapper{
+    margin: 73px 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lessonImg{
+    position: relative;
+    height: 90vh;
+    width: calc(90vh/160*90);
+    object-fit:contain;
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    width: 10%;
+    height: 100%;
+    z-index: 10;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor:pointer;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.button:hover{
+    background-color: rgba(255,255,255,0.5);
+}

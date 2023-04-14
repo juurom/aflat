@@ -1,0 +1,24 @@
+.wrapper{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+@keyframes spinner {
+    from {transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+  }
+
+.circle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-width: 1px 0 1px 1px;
+    border-radius: 15px;
+    animation: spinner .8s ease infinite;}
+

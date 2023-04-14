@@ -1,0 +1,15 @@
+.footer_wrapper{
+    display: flex;
+    background-color: var(--mybeige);
+    color: var(--mybrown);
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+@media screen and (max-width:767px) {
+   .footer_wrapper{
+    flex-direction: column;
+    padding: 20px 10px;
+    font-size: 0.7rem;
+   }
+}

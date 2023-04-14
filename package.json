@@ -1,0 +1,32 @@
+{
+  "name": "aflat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "axios": "^1.3.4",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "gsap": "^3.11.4",
+    "moment": "^2.29.4",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-calendar": "^4.0.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.8",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@types/react-calendar": "^3.9.0",
+    "@types/styled-components": "^5.1.26"
+  }
+}

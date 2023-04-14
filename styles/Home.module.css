@@ -1,0 +1,64 @@
+.index{
+  background-image: url("../static/mainpage.jpeg");
+  background-repeat : no-repeat;
+  background-size : cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.index_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.title{
+  font-family: 'DolceVitaLight', sans-serif;
+  font-size: 2rem;
+  margin: 20px 0;
+  color: var(--mybeige)
+}
+
+.menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.menubtn{
+  position: relative;
+  height: 30px;
+  width: 100px;
+  z-index: 1;
+  margin: 0 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--mydarkbeige);
+  color:white;
+  cursor: pointer;
+}
+
+.menubtn:hover{
+  opacity: 0;
+}
+
+.menuhover{
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  height: 30px;
+  width: 100px;
+  margin: 0 20px;
+  padding: 10px 0; 
+  border: none;
+  border-radius: 10px;
+  background-color: var(--mybrown);
+  font-size: 0.8rem;
+  color:white;
+  cursor: pointer;
+}

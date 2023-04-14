@@ -1,0 +1,79 @@
+.navbar_index{
+    list-style: none;
+    position: absolute;
+    width: 100vw;
+    top: 0; left: 0;
+    display: flex;
+    align-items: center;
+    color: var(--mybeige);
+    overflow: scroll;
+}
+
+.navbar_others{
+    list-style: none;
+    position: absolute;
+    width: 100vw;
+    top: 0; left: 0;
+    display: flex;
+    align-items: center;
+    background-color: var(--mybeige);
+    color: var(--mybrown);
+    overflow: scroll;
+}
+
+.navbar_index:hover{
+    background-color: var(--mybeige);
+    color: var(--mybrown);
+}
+
+.navlogo{
+    width: 100px;
+    margin: 0 30px;
+}
+
+.navitem{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 73px;
+    width: 100px;
+    margin: 0 30px;
+}
+
+.navitem > a{
+    font-family: 'DolceVitaLight', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navitem:hover{
+    border-width: 0 0 2px 0;
+    border-color: var(--mybrown);
+    border-style: solid;
+    transition: all 0.1s;
+}
+
+@keyframes dropdown {
+    0% {
+    transform: translateY(-100%);
+    }
+    100% {
+    transform: translateY(0);
+    }
+}
+
+.dropdown{
+    z-index: 10;
+    list-style: none;
+    animation: dropdown 0.4s ease;
+    position: absolute;
+    top: 100%;
+    display: block;
+    background: rgba(255,255,255,0.7);
+    width: 100%;
+}
+
+.dropdown > li {
+    padding: 20px 0;
+}
