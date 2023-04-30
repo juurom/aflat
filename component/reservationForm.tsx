@@ -12,7 +12,7 @@ import roomd from '@/static/roomd.jpeg';
 import roomData from '@/static/roomExp.json'
 import ReservationModal from '@/component/reservationModal';
 import LoadingSpinner from '@/component/loadingSpinner';
-const SERVER = 'http://localhost:4000'
+const SERVER = 'https://aflatserver.herokuapp.com'
 
 interface reservationInfo {
     reservationDate:string;
