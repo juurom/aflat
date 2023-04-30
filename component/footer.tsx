@@ -11,16 +11,16 @@ function footer() {
     <br/>이메일: eunsoul_atelier@naver.com | 주소: 서울시 용산구 원효로93길 22 3층 | 사업자등록번호: 312-99-30997
 </div>
     <div>
-        <Link href={'https://www.youtube.com/'}>
-        <Image src={'/static/youtube.png'} alt="youtube" height={30} width={30}></Image>
+        <Link href={'https://m.blog.naver.com/a-flat_music_studio'}>
+        <Image src={'/static/blog.png'} alt="blog" height={30} width={30}></Image>
         </Link>
-        <Link href={'https://www.instagram.com/'}>
+        <Link href={'https://instagram.com/aflat_music_?igshid=YmMyMTA2M2Y='}>
         <Image src={'/static/instagram.png'} alt="insta" height={30} width={30}></Image>
         </Link>
-        <Link href={'https://www.kakaocorp.com/page/'}>
+        <Link href={'http://pf.kakao.com/_VTuLxj'}>
         <Image src={'/static/kakao-talk.png'} alt="kakaotalk" height={30} width={30}></Image>
         </Link>
-        <Link href={'https://www.youtube.com/'}>
+        <Link href={'tel:0507-1372-8460'}>
         <Image src={'/static/phone-call.png'} alt="phone" height={30} width={30}></Image>     
         </Link>
     </div>

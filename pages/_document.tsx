@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:url" content="https://aflat.vercel.app/"/>
         <meta property="og:title" content="Aflat 에이플랫"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:image" content="../static/mainpage.jpeg"/>
+        <meta property="og:image" content="https://ibb.co/MCRhxXC"/>
         <meta property="og:description" content="Aflat music studio & lesson"/>
       </Head>
       <body>
