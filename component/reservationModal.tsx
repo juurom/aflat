@@ -81,16 +81,8 @@ return (
                 <div>예약자명: {props.name}</div>
                 <div>연락처: {props.phone}</div>
             </div>
-            <Link 
-            onClick={(e)=>{handleReserve(e, props)}}
-             href={{
-              pathname: '/check',
-              query: { name: props.name, reservationDate: props.date, timeTo:props.timeTo, timeFrom:props.timeFrom, room: props.room, phone: props.phone },
-              }}
-              as="/check"
-              >
-                <button className={styles.modal_reservebtn}>예약하기</button>
-            </Link>
+            <button className={styles.modal_reservebtn} onClick={(e)=>{handleReserve(e, props)}}>예약하기</button>
+
         </div>
     </div>
     )
