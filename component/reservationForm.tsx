@@ -206,7 +206,6 @@ export default function reservationForm() {
     else{
       e.preventDefault();
       setModalState(true);
-      console.log("show modal");
     }
   }
 
