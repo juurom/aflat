@@ -69,8 +69,9 @@ export default function reservationForm() {
   }
   const enableTimeBtn = ()=>{
     let disabled:Array<number> = [];
+    const curDate = moment(reservationDate, 'YYYY-MM-DD').format('YYYY-MM-DD');
     reservedData.map((d:reservationInfo)=>{
-      if (moment(reservationDate).format(moment.HTML5_FMT.DATE) === d.reservationDate && reservationRoom === d.room){
+      if (curDate === d.reservationDate && reservationRoom === d.room){
         const timeFrom = reservationTime.indexOf(d.timeFrom);
         const timeTo = reservationTime.indexOf(d.timeTo);
         for (let idx = timeFrom; idx < timeTo; idx++) disabled.push(idx);
